@@ -14,6 +14,8 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  boot.initrd.luks.devices."luks-81db1793-93f1-4367-9c11-812c245701f2".device = "/dev/disk/by-uuid/81db1793-93f1-4367-9c11-812c245701f2";
+
   networking.hostName = "scuzzy"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -100,6 +102,7 @@
     kmail = true;
     enable = true;
   };
+  programs.partition-manager.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -117,15 +120,15 @@
     kdePackages.akonadi
     kdePackages.akonadi-calendar
     kdePackages.akonadi-contacts
-    kdePackages.akonadi-search
     kdePackages.akonadi-import-wizard
-    kdePackages.kdepim-runtime
+    kdePackages.akonadi-search
     kdePackages.kaccounts-integration
     kdePackages.kaccounts-providers
-    kdePackages.kio-gdrive
     kdePackages.kdepim-addons
-    kdePackages.signond
+    kdePackages.kdepim-runtime
+    kdePackages.kio-gdrive
     kdePackages.signon-kwallet-extension
+    kdePackages.signond
     libsForQt5.qoauth
   ];
 
