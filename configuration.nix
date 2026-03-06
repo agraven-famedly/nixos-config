@@ -91,6 +91,7 @@
 
 
   # Program options
+  programs.direnv.enable = true;
   programs.neovim = {
     enable = true;
     # Set the EDITOR variable to nvim globally
@@ -116,6 +117,17 @@
     gnumake
     neovide
     nerd-fonts.iosevka-term-slab
+
+    ast-grep
+    bash-language-server
+    clang-tools
+    lemminx
+    ruff
+    rustup
+    ty
+    vim-language-server
+    vscode-langservers-extracted
+    yaml-language-server
 
     kdePackages.akonadi
     kdePackages.akonadi-calendar
