@@ -125,6 +125,7 @@
 		bash-language-server
 		clang-tools
 		lemminx
+		nixd
 		ruff
 		rustup
 		ty
