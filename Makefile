@@ -1,4 +1,4 @@
 .PHONY: switch
 
 switch:
-	sudo nixos-rebuild switch --flake '.#scuzzy'
+	nixos-rebuild switch --sudo --flake '.#scuzzy'
