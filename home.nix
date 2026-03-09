@@ -20,6 +20,6 @@
 				name = "Amanda Graven";
 				email = "a.graven@famedly.com";
 			};
-		}
+		};
 	};
 }
