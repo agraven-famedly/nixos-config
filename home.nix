@@ -15,7 +15,11 @@
 
   programs.git = {
     enable = true;
-    userName = "Amanda Graven";
-    userEmail = "a.graven@famedly.com";
+    settings = {
+      user = {
+        name = "Amanda Graven";
+        email = "a.graven@famedly.com";
+      };
+    }
   };
 }
