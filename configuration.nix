@@ -84,7 +84,7 @@
 	users.users.amanda = {
 		isNormalUser = true;
 		description = "Amanda";
-		extraGroups = [ "networkmanager" "wheel" ];
+		extraGroups = [ "networkmanager" "wheel" "docker" ];
 		packages = with pkgs; [
 			kdePackages.kate
 		#	thunderbird
@@ -150,6 +150,9 @@
 
 	hardware.bluetooth.enable = true;
 
+	virtualisation.docker = {
+		enable = true;
+	};
 
 	# Open ports in the firewall.
 	# networking.firewall.allowedTCPPorts = [ ... ];
