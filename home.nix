@@ -1,4 +1,6 @@
-{ config, pkgs, ... }:
+# Home manager configuration
+
+{ ... }:
 {
 	# Boilerplate
 
