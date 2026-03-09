@@ -114,9 +114,10 @@
 		direnv
 		element-desktop
 		gcc
+		gh
 		git
-		go
 		gnumake
+		go
 		neovide
 		nerd-fonts.iosevka-term-slab
 
