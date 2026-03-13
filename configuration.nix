@@ -119,6 +119,7 @@
 		git
 		gnumake
 		go
+		inkscape
 		neovide
 		nerd-fonts.iosevka-term-slab
 		ripgrep
