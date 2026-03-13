@@ -92,6 +92,7 @@
 
 
 	# Program options
+	programs.bash.vteIntegration = true;
 	programs.direnv.enable = true;
 	programs.neovim = {
 		enable = true;
