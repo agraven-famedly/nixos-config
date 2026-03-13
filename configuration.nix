@@ -112,6 +112,7 @@
 		bitwarden-desktop
 		direnv
 		element-desktop
+		fd
 		gcc
 		gh
 		git
@@ -119,6 +120,7 @@
 		go
 		neovide
 		nerd-fonts.iosevka-term-slab
+		ripgrep
 
 		ast-grep
 		bash-language-server
