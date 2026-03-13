@@ -21,6 +21,10 @@
 			user = {
 				name = "Amanda Graven";
 				email = "a.graven@famedly.com";
+				signingkey = "405A2ED4E568D51012EDEF2A107C47C0270A72F9";
+			};
+			commit = {
+				gpgsign = true;
 			};
 		};
 	};
