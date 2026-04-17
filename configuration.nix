@@ -113,6 +113,7 @@
 	# $ nix search wget
 	environment.systemPackages = with pkgs; [
 		bitwarden-desktop
+		cinny-desktop
 		direnv
 		element-desktop
 		fd
