@@ -17,14 +17,29 @@
 
 	programs.git = {
 		enable = true;
+		signing = {
+			signByDefault = true;
+			key = "BC58FE0C4256DB033D26C66E71F1C405C9569184";
+		};
 		settings = {
 			user = {
 				name = "Amanda Graven";
 				email = "a.graven@famedly.com";
-				signingkey = "405A2ED4E568D51012EDEF2A107C47C0270A72F9";
 			};
-			commit = {
-				gpgsign = true;
+		};
+	};
+
+	# Enable man page searching with apropos (slows the build a little)
+	programs.man.generateCaches = true;
+
+	programs.neovide = {
+		enable = true;
+		settings = {
+			maximized = true;
+			font = {
+				normal = "IosevkaTermSlab Nerd Font";
+				size = 11;
+				edging = "subpixelantialias";
 			};
 		};
 	};
