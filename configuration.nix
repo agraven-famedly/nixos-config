@@ -134,9 +134,11 @@
 		nixd
 		ruff
 		rustup
+		tree-sitter
 		ty
 		vim-language-server
 		vscode-langservers-extracted
+		vscode-extensions.vadimcn.vscode-lldb.adapter
 		yaml-language-server
 
 		kdePackages.akonadi
