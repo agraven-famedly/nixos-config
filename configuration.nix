@@ -107,6 +107,7 @@
 		kmail = true;
 		enable = true;
 	};
+	programs.nh.enable = true;
 	programs.partition-manager.enable = true;
 
 	# List packages installed in system profile. To search, run:
